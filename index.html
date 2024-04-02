@@ -1,13 +1,447 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Умная радость</title>
-</head>
-<body>
-    
-</body>
+    <link
+      href="css/style.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img/favicon.ico"
+    />
+  </head>
+  <body>
+    <div class="main-bg">
+      <header>
+        <div class="header-container">
+          <nav class="header__menu">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a
+                  href="#catalog"
+                  class="nav-link"
+                  >Каталог</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#toOrder"
+                  class="nav-link"
+                  >Заказать</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#contacts"
+                  class="nav-link"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="main-bg-text">
+        <h1>Умная радость</h1>
+        <p>Идеальный винтажный магазин одежды, где радость сочетается с умом в выборе стильных и экологичных вещей.</p>
+        <a
+          href="#catalog"
+          class="main-bg-text__button"
+          >В каталог</a
+        >
+      </div>
+    </div>
+    <main>
+      <section
+        class="about"
+        id="about"
+      >
+        <div class="about-text">
+          <h2>О нас</h2>
+          <p>
+            Мы гордимся нашей уникальной коллекцией качественных и изысканных предметов гардероба, которые обязательно придутся по вкусу любителям винтажа и
+            ретро-стиля.
+          </p>
+          <p>
+            Мы стремимся не только удовлетворить вашу потребность в красивых и качественных вещах, но и сделать ваш шопинг максимально удобным и приятным. Наши
+            консультанты всегда готовы помочь вам с выбором, ответить на любые вопросы и дать ценные советы.
+          </p>
+          <p>
+            Кроме того, мы заботимся о сохранении окружающей среды, предлагая вам возможность приобрести стильные и экологичные вещи с историей. Винтажная
+            одежда - это не только модный тренд, но и возможность поддержать устойчивое развитие моды и заботиться о нашей планете.
+          </p>
+          <p>
+            Приходите в Умную Радость и окунитесь в мир винтажной моды, где радость от покупки сочетается с умом выбора стильного и качественного гардероба!
+          </p>
+        </div>
+        <picture class="about-img1">
+          <source
+            srcset="./img/about1.jpg"
+            media="(max-width: 375px)"
+            alt="about"
+            width="118"
+            height="114"
+          />
+          <img
+            class="about_img"
+            src="./img/About1.jpg"
+            alt="about"
+            width="231"
+            height="184"
+          />
+        </picture>
+        <picture class="about-img2">
+          <source
+            srcset="./img/about2.jpg"
+            media="(max-width: 375px)"
+            alt="about"
+            width="76"
+            height="58"
+          />
+          <img
+            class="about_img"
+            src="./img/About2.jpg"
+            alt="about"
+            width="332"
+            height="259"
+          />
+        </picture>
+        <picture class="about-img3">
+          <source
+            srcset="./img/about3.jpg"
+            media="(max-width: 375px)"
+            alt="about"
+            width="156"
+            height="126"
+          />
+          <img
+            class="about_img"
+            src="./img/About3.jpg"
+            alt="about"
+            width="380"
+            height="400"
+          />
+        </picture>
+        <img
+          class="about-img4"
+          src="./img/about4.jpg"
+          alt="about"
+          width="413"
+          height="290"
+        />
+      </section>
+      <section class="quality">
+        <h2>Наши достоинтсва</h2>
+        <ul class="quality-list">
+          <li class="quality-item">
+            <img
+              src="img/shirt.svg"
+              alt=""
+              width="80"
+              height="80"
+            />
+            <h3 class="quality-item_h3">Уникальность ассортимента</h3>
+            <p class="quality-item_text">Предлагает широкий выбор винтажной одежды, созданной в прошлых десятилетиях</p>
+          </li>
+          <li class="quality-item">
+            <img
+              src="img/quality.svg"
+              alt=""
+              width="80"
+              height="80"
+            />
+            <h3 class="quality-item_h3">Качество товаров</h3>
+            <p class="quality-item_text">Все представленные в магазине вещи проходят тщательный отбор, что гарантирует их высокое качество и долговечность</p>
+          </li>
+          <li class="quality-item">
+            <img
+              src="img/eco.svg"
+              alt=""
+              width="80"
+              height="80"
+            />
+            <h3 class="quality-item_h3">Экологичность</h3>
+            <p class="quality-item_text">
+              При выборе вещей предпочтение отдается винтажным предметам, которые способствуют снижению потребления новых ресурсов и уменьшению экологического
+              следа
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="catalog"
+        id="catalog"
+      >
+        <div class="catalog-header">
+          <h2>Каталог</h2>
+          <select
+            name=""
+            class="js-select"
+          >
+            <option value="all">Категории</option>
+            <option value="watch">Часы</option>
+            <option value="backpack">Сумка</option>
+            <option value="proj">Брош</option>
+          </select>
+        </div>
+        <div class="catalog-main">
+          <ul class="catalog-main_list">
+            <li class="catalog-main_item" id="watch">
+              <img
+                src="img/catalog1.jpg"
+                alt="catalog1"
+                class="catalog-main_item__img"
+              />
+              <div class="catalog-main_item__text">
+                <div class="catalog-main_item__subtext">
+                  <p>Часы золотые “Авангард”</p>
+                  <p>1978 г.</p>
+                </div>
+                <span class="catalog-main_item__price">3500р.</span>
+              </div>
+            </li>
+            <li class="catalog-main_item" id="backpack">
+              <img
+                src="img/catalog2.jpg"
+                alt="catalog2"
+                class="catalog-main_item__img"
+              />
+              <div class="catalog-main_item__text">
+                <div class="catalog-main_item__subtext">
+                  <p>Сумочка швейцарская</p>
+                  <p>1951 г.</p>
+                </div>
+                <div class="catalog-main_item__price">10 000р.</div>
+              </div>
+            </li>
+            <li class="catalog-main_item" id="proj">
+              <img
+                src="img/catalog3.jpg"
+                alt="catalog3"
+                class="catalog-main_item__img"
+              />
+              <div class="catalog-main_item__text">
+                <div class="catalog-main_item__subtext">
+                  <p>Брошь с изумрудом</p>
+                  <p>1962 г.</p>
+                </div>
+                <div class="catalog-main_item__price">12 000р.</div>
+              </div>
+            </li>
+            <li class="catalog-main_item" id="watch">
+              <img
+                src="img/catalog4.jpg"
+                alt="catalog4"
+                class="catalog-main_item__img"
+              />
+              <div class="catalog-main_item__text">
+                <div class="catalog-main_item__subtext">
+                  <p>Часы с кожаным ремешком</p>
+                  <p>1982 г.</p>
+                </div>
+                <div class="catalog-main_item__price">12 000р.</div>
+              </div>
+            </li>
+            <li class="catalog-main_item unvisited" id="backpack">
+              <img
+                src="img/catalog5.jpg"
+                alt="catalog5"
+                class="catalog-main_item__img"
+              />
+              <div class="catalog-main_item__text">
+                <div class="catalog-main_item__subtext">
+                  <p>Сумочка с цветами</p>
+                  <p>1955 г.</p>
+                </div>
+                <div class="catalog-main_item__price">3500р.</div>
+              </div>
+            </li>
+            <li class="catalog-main_item unvisited " id="proj">
+              <img
+                src="img/catalog6.jpg"
+                alt="catalog6"
+                class="catalog-main_item__img"
+              />
+              <div class="catalog-main_item__text">
+                <div class="catalog-main_item__subtext">
+                  <p>Брошь жемчужная с золотом</p>
+                  <p>1888 г.</p>
+                </div>
+                <div class="catalog-main_item__price">10 000р.</div>
+              </div>
+            </li>
+            <li class="catalog-main_item unvisited" id="backpack">
+              <img
+                src="img/catalog7.jpg"
+                alt="catalog7"
+                class="catalog-main_item__img"
+              />
+              <div class="catalog-main_item__text">
+                <div class="catalog-main_item__subtext">
+                  <p>Сумка дипломат кожаная</p>
+                  <p>1999 г.</p>
+                </div>
+                <div class="catalog-main_item__price">12 000р.</div>
+              </div>
+            </li>
+            <li class="catalog-main_item unvisited" id="proj">
+              <img
+                src="img/catalog8.jpg"
+                alt="catalog8"
+                class="catalog-main_item__img"
+              />
+              <div class="catalog-main_item__text">
+                <div class="catalog-main_item__subtext">
+                  <p>Брошь “Красный глаз” с бриллиантами</p>
+                  <p>1900 г.</p>
+                </div>
+                <div class="catalog-main_item__price">12 000р.</div>
+              </div>
+            </li>
+            <li class="catalog-main_item unvisited" id="backpack">
+                <img src="img/catalog9.jpg" alt="catalog9" class="catalog-main_item__img">
+                <div class="catalog-main_item__text">
+                    <div class="talog-main_item__subtext">
+                        <p>Клач</p>
+                        <p>1888 г.</p>
+                    </div>
+                    <div class="catalog-main_item__price">25 000р.</div>
+                </div>
+              </li>
+              <li class="catalog-main_item unvisited" id="proj">
+                <img src="img/catalog10.jpg" alt="catalog10" class="catalog-main_item__img">
+                <div class="catalog-main_item__text">
+                    <div class="talog-main_item__subtext">
+                        <p>Кулон с опалом</p>
+                        <p>1991 г.</p>
+                    </div>
+                    <div class="catalog-main_item__price">16 999р.</div>
+                </div>
+              </li>
+              <li class="catalog-main_item unvisited" id="watch">
+                <img src="img/catalog11.jpg" alt="catalog11" class="catalog-main_item__img">
+                <div class="catalog-main_item__text">
+                    <div class="talog-main_item__subtext">
+                        <p>Часы “Наследие”</p>
+                        <p>1843 г.</p>
+                    </div>
+                    <div class="catalog-main_item__price">5 999р.</div>
+                </div>
+              </li>
+              <li class="catalog-main_item unvisited" id="watch">
+                <img src="img/catalog12.jpg" alt="catalog112" class="catalog-main_item__img">
+                <div class="catalog-main_item__text">
+                    <div class="talog-main_item__subtext">
+                        <p>Часы “Модерн”</p>
+                        <p>1712 г.</p>
+                    </div>
+                    <div class="catalog-main_item__price">30 000р.</div>
+                </div>
+              </li>
+          </ul>
+        </div>
+        <a
+          href="#"
+          class="catalog__btn js-filter"
+          >Показать еще</a
+        >
+      </section>
+      <section class="delivery">
+        <h2>Доставка</h2>
+        <div class="delivery-tabs">
+          <input
+            type="radio"
+            name="tabs"
+            id="tabtwo"
+            checked="checked"
+          />
+          <label for="tabtwo">Обычная доставка</label>
+          <div class="tab">
+            <h3>Обычная доставка</h2>
+            <div class="delivery-tabs_text">
+              <p>
+                Доставка товаров с помощью почтовых служб, курьерских компаний или самовывоз из магазина.
+              </p>
+              <p>
+                Для почтовых служб магазин может использовать мелкий пакет, посылку или бандероль для отправки товаров покупателям. Курьерская доставка позволяет быстро и надежно доставить товары от двери до двери, а самовывоз позволяет покупателям контролировать процесс получения товара и сэкономить на стоимости доставки.
+              </p>
+            </div>
+          </div>
+
+          <input
+            type="radio"
+            name="tabs"
+            id="tabthree"
+          />
+          <label for="tabthree">Экспресс доставка</label>
+          <div class="tab">
+            <h3>Экспресс доставка</h2>
+            <div class="delivery-tabs_text">
+              <p>
+                Экспресс доставка – это услуга, которая обеспечивает быструю и надежную доставку товаров и документов в любую точку мира. Она подходит для тех,
+                кому нужна срочная доставка и кто ценит свое время. Экспресс-доставка может быть осуществлена различными видами транспорта, включая авиацию,
+                автомобильный транспорт и курьерские службы.
+              </p>
+              <p>
+                Одним из преимуществ экспресс-доставки является то, что она обеспечивает более быструю доставку, чем обычная доставка. Кроме того,
+                экспресс-доставка обычно включает в себя дополнительные услуги, такие как отслеживание доставки, упаковка товара и информирование о его
+                прибытии.
+              </p>
+              <p>
+                Однако, экспресс-доставка может быть дороже, чем обычная доставка, поэтому она подходит не для всех товаров и случаев. Выбор между обычной и
+                экспресс-доставкой зависит от многих факторов, таких как стоимость товара, его вес и габариты, а также срочность доставки. В любом случае, перед
+                тем как выбрать способ доставки, рекомендуется проконсультироваться с продавцом или службой доставки.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ToOrder" id="toOrder">
+        <div class="ToOrder-text">
+            <h2>Оформление заказа</h2>
+            <p>для оформления заказа, оставьте информацию о себе и мы с Вами свяжемся</p>
+        </div>
+        <form action="/php/index.php">
+            <div class="form-input">
+                <input type="text" name="name" placeholder="Ваше имя">
+                <input type="email" name="email" placeholder="Электронная почта">
+            </div>
+            <div class="form-button">
+                <button type="submit">Отправить</button>
+                <span>Отправляя данные вы соглашаетесь с <a href="#">правила обработки данных</a></span>
+            </div>
+        </form>
+      </section>
+      <section class="contact" id="contacts">
+        <h2>Контакты</h2>
+        <ul class="contact-list">
+            <li class="contact-item">
+                <a class="contact-item_link" href="mailto:example@mail.ru">example@mail.ru</a>
+                <span>E-mail</span>
+            </li>
+            <li class="contact-item">
+                <a class="contact-item_link" href="tel:+79064022434">8(906)402-2434</a>
+                <span>Телефон</span>
+            </li>
+            <li class="contact-item">
+                <h3>​Маршала Чуйкова, 4а​2, 3 этаж
+                    Центр, Центральный район</h3>
+                <span>Адрес</span>
+            </li>
+        </ul>
+      </section>
+      <footer>
+        <div></div>
+        <p>Copyright © 2024 “Умная радость” Московкин Родион ИС-4-1</p>
+      </footer>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
 </html>
