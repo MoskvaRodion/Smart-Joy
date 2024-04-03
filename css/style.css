@@ -352,14 +352,11 @@ h1 {
 .catalog-main_list {
   padding: 0 16px;
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  gap: 22px;
-}
-
-.catalog-main_item {
-  width: 100%;
-  max-width: 330px;
-  transition: 1s ease;
+  grid-template-columns: repeat(4, 330px);
+  grid-gap: 22px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
 .catalog-main_item__img {
@@ -697,6 +694,11 @@ footer p {
 
   .about-img4 {
     display: none;
+  }
+
+  .quality {
+    margin-bottom: 33px;
+    border-bottom: none;
   }
 
   .quality-list {

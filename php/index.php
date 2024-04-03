@@ -3,8 +3,8 @@ $Name=$_POST['Name'];
 $adress=$_POST['adress'];
 
 $subject="Тема: Обратная связь";
-$mestext="Спасибо $Name за сообщение, мы ответим в ближайщее время.";
-$headers ="От: Лунная соната";
+$mestext="Спасибо, Вам за обращение, в ответе напиште товар который Вас заинтересовал.";
+$headers ="От: Умная радость";
 mail($adress, $subject, $mestext, $headers);
 $mainpage = "../index.html";
 header("Refresh: 4; url='$mainpage'");

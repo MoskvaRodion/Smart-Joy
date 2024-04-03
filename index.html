@@ -348,7 +348,7 @@
           </ul>
         </div>
         <a
-          href="#"
+          href="#catalog"
           class="catalog__btn js-filter"
           >Показать еще</a
         >
@@ -408,10 +408,10 @@
             <h2>Оформление заказа</h2>
             <p>для оформления заказа, оставьте информацию о себе и мы с Вами свяжемся</p>
         </div>
-        <form action="/php/index.php">
+        <form action="/php/index.php" method="POST" name="call">
             <div class="form-input">
-                <input type="text" name="name" placeholder="Ваше имя">
-                <input type="email" name="email" placeholder="Электронная почта">
+                <input type="text" name="Name" placeholder="Ваше имя">
+                <input type="email" name="adress" placeholder="Электронная почта">
             </div>
             <div class="form-button">
                 <button type="submit">Отправить</button>

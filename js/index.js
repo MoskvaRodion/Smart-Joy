@@ -22,8 +22,7 @@ document.querySelector(".js-select").onchange = function () {
 
 btn.addEventListener("click", allItems);
 
-function allItems(event) {
-  event.preventDefault();
+function allItems() {
   for (const el of unLi) {
     el.classList.toggle("unvisited");
   }
