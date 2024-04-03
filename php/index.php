@@ -1,9 +1,9 @@
 <?php
-$Name=$_POST['Name'];
+$name=$_POST['name'];
 $adress=$_POST['adress'];
 
 $subject="Тема: Обратная связь";
-$mestext="Спасибо, Вам за обращение, в ответе напиште товар который Вас заинтересовал.";
+$mestext="Спасибо, Вам за обращение, в ответе напишите товар который Вас заинтересовал.";
 $headers ="От: Умная радость";
 mail($adress, $subject, $mestext, $headers);
 $mainpage = "../index.html";
